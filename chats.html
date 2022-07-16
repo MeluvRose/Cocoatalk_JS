@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - CoCoa clone</title>
+    <title>Chats - CoCoa clone</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -23,9 +23,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
           <a href="settings.html">
@@ -35,50 +36,27 @@
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i> Friend's Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/50815599"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__name">Jin</h4>
-            <!-- <h6 class="user-component__subtitle">asjdkl</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
+    <main class="main-screen">
+      <a href="chatting.html">
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://play-lh.googleusercontent.com/Ob9Ys8yKMeyKzZvl3cB9JNSTui1lJwjSKD60IVYnlvU2DsahysGENJE-txiRIW9_72Vd"
-              class="user-component__avatar user-component__avatar--sm"
+              src="https://avatars.githubusercontent.com/u/50815599"
+              class="user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__name user-component__name--not-bold">
-                Channel
-              </h4>
+              <h4 class="user-component__name">Jin</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Cocoa Account Info
+              </h6>
             </div>
           </div>
           <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xs"></i>
-            </div>
+            <span class="user-component__time">14:06</span>
+            <div class="badge">1</div>
           </div>
         </div>
-      </div>
+      </a>
     </main>
 
     <nav class="nav">
