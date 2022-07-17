@@ -1,10 +1,11 @@
 .settings__setting {
-  padding: 20px 0px;
+  padding: 20px 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 20px;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  transition: all 0.3s ease-in-out;
 }
 
 .settings__setting i {
@@ -15,4 +16,10 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting:hover {
+  background-color: #eab7c8;
+  color: #1d130d;
+  opacity: 1;
 }
