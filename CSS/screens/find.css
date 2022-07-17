@@ -103,3 +103,23 @@
 .open-channel__hearts span {
   margin-left: 5px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.5);
+  }
+  100% {
+    dolor: white;
+    transform: none;
+  }
+}
+
+.open-channel__hearts:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
